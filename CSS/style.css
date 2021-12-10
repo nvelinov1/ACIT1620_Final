@@ -30,12 +30,12 @@
 }
 
 .dark-theme {
-  --navBg: black;
-  --navLinkHoverBg: #d7dbc3;
-  --mainBg: #305573;
+  --navBg: #305573;
+  --navLinkHoverBg: #b68770;
+  --mainBg: black;
   --fontColor: #f4f5ef;
   --navLinkColor: #f4f5ef;
-  --formBg: #b68770;
+  --formBg: #91bbd1;
   --formInput: #f4f5ef;
 }
 
