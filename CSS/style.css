@@ -29,6 +29,16 @@
   --formInput:      var(--white);
 }
 
+.dark-theme {
+  --navBg: black;
+  --navLinkHoverBg: #d7dbc3;
+  --mainBg: #305573;
+  --fontColor: #f4f5ef;
+  --navLinkColor: #f4f5ef;
+  --formBg: #b68770;
+  --formInput: #f4f5ef;
+}
+
 /* toggle styles begin */
 .toggle {
   appearance: none;
