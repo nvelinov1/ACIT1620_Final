@@ -199,8 +199,30 @@ input[type=text]:focus {
 }
 
 @media screen and (max-width: 600px) {
+
   body {
-    position: flex;
-    flex-direction: row;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
   }
+  nav {
+    display: flex;
+    flex-direction: row;
+    flex: 1 1 auto;
+  }
+
+  #contact > h2 {
+    font-size: 20px;
+  }
+
+  #main > h1 {
+    font-size: 30px;
+  }
+
+  .myForm {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+
 }
